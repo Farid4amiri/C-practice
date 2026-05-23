@@ -3,7 +3,8 @@
 *.out
 *.exe
 a.out
-
+variables
+your-first-c-program
 # build folders
 build/
 bin/
