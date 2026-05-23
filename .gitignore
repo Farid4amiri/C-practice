@@ -6,6 +6,7 @@ a.out
 variables
 your-first-c-program
 arithmetic
+*.gitignore
 # build folders
 build/
 bin/
