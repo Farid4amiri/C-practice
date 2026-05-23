@@ -1,0 +1,14 @@
+# C compiled files
+*.o
+*.out
+*.exe
+a.out
+
+# build folders
+build/
+bin/
+obj/
+
+# editor/temp files
+*.tmp
+*.log
