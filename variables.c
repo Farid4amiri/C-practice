@@ -11,16 +11,24 @@ int main(){
  float temperature = -10.1;
 
  double pi = 3.14159265358979;
+ double e = 2.7112389047987123;
+
+ char grade = 'A';
 
 
     //prints
  printf("you are %d years old\n", age);
  printf("the year is %d\n",year);
  printf("you have ordered %d x items\n",quantity);
+
  printf("your gpa is %.1f \n",gpa);
  printf("the price of item x is $%.2f \n", price);
  printf("the temperature is %.1f °C\n", temperature);
- printf("the pi number is %f \n" , pi);
+
+ printf("the pi number is %.15lf \n" , pi);
+ printf("The value of e is %.15lf \n", e );
+
+ printf("your grade is %c \n" , grade);
 
     return 0;
 }
