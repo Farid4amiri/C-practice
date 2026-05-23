@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <stdbool.h>
+
+
 
 int main(){
     //variables
@@ -14,6 +17,13 @@ int main(){
  double e = 2.7112389047987123;
 
  char grade = 'A';
+ char symbol = '!';
+ char currency = '$';
+
+ char name[] = "Farid Amirizadeh";
+ char food[] = "Pizza";
+ char email[] = "fake123@gmail.com";
+ bool isOnline = true;
 
 
     //prints
@@ -29,6 +39,14 @@ int main(){
  printf("The value of e is %.15lf \n", e );
 
  printf("your grade is %c \n" , grade);
+ printf("%c this is explanation mark symbol \n" , symbol);
+ printf("the currency is %c\n" ,currency);
+
+ printf("my name is %s \n", name);
+ printf("I love %s \n" , food);
+ printf ("my email is %s \n" , email);
+
+ printf("%d", isOnline);
 
     return 0;
 }
