@@ -9,6 +9,7 @@ arithmetic
 *.gitignore
 user-input
 *.vscode
+shopping-cart
 # build folders
 build/
 bin/
