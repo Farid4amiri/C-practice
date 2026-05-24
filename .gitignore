@@ -8,6 +8,7 @@ your-first-c-program
 arithmetic
 *.gitignore
 user-input
+*.vscode
 # build folders
 build/
 bin/
